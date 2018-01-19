@@ -1,0 +1,17 @@
+td, th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+.input-group {
+  margin: 20px 0px;
+}
+
+svg {
+  height: 150px;
+}
+/*Find the first td in each tr and give it this height and width, also find the child div inside that first td and give it the same height and width*/
+td:first-of-type, td:first-of-type > div {
+  height: 200px;
+  width: 250px;
+}
